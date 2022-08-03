@@ -1,4 +1,7 @@
-numbers = [5, 2, 5, 2, 2]
+numbers = [2, 2, 2, 2, 5]
 
-for number in numbers:
-    print("x" * number)
+for x_count in numbers:
+    output = ""
+    for count in range(x_count):
+        output += "x"
+    print(output)
