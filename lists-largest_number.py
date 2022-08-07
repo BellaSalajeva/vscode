@@ -1,4 +1,4 @@
-numbers = [3, 6, 2, 8, 4, 10, 1]
+numbers = [10, 3, 6, 2]
 max_number = numbers[0]
 
 for number in numbers:
